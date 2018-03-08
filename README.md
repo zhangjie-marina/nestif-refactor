@@ -20,8 +20,13 @@ Package refactor-data contains the data of:
 ----------------------------------------------------------------------------------------------------
 
 Please follow these steps to run experiments:
+
 Step1. Download the two packages. Record the filepath of package "refactor-data"
+
 Step2. In the main class of artifact1_get_refactored_formulae.py, change the filepath into the path of folder "refactor-data".
+
 Step3. Run artifact1_get_refactored_formulae.py to get the refactored results.
+
 Step4. In the main class of artifact2_analyze_refactored_formulae.py, change the filepath into the path of folder "refactor-data".
+
 Step5. Run artifact2_analyze_refactored_formulae.py to get the analyzed results.
