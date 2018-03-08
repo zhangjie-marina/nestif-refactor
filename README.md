@@ -11,17 +11,18 @@ This paper proposes the first automated approach to systematically refactoring n
 
 Package NestIF-PythonCode contains the code for:
 1. get refactored formulae from the original nest-if formulae (artifact1_get_refactored_formulae.py).
-2. analyze the refactored results (artifact2_analyze_refactored_formulae.py)
+2. analyze the refactored results (artifact2_analyze_refactored_formulae.py).
 
-Package refactor-data contains the data of:
-1. the original nest-if formulae extracted from the Enron spreadsheet corpus (), 
-2. the refactored formulae
+
+Link https://drive.google.com/open?id=1003s1HfvFBcBbdt3IQ0s29XwSHrb9icE contains the data of:
+1. the original nest-if formulae extracted from the Enron spreadsheet corpus (). 
+2. the refactored formulae.
 
 ----------------------------------------------------------------------------------------------------
 
 Please follow these steps to run experiments:
 
-Step1. Download the two packages. Record the filepath of package "refactor-data"
+Step1. Download the code and data. Record the filepath of package "refactor-data".
 
 Step2. In the main class of artifact1_get_refactored_formulae.py, change the filepath into the path of folder "refactor-data".
 
